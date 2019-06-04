@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pets Well</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <!-- Font Awesome 5 -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <!-- Custom style -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="carousel.css">
+  <!-- Favicon -->
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+  <!-- ============================================
+  ===================== HEADER =================== -->
+  <header class="shadow-sm">
+
+    <!-- Logo -->
+    <div class="shadow-sm rounded">
+      <img class="d-block mx-auto" src="http://inmotus-design.ru/img/content/design-logotype-pets-well.jpg" width="200" draggable="false" alt="Logo">
+    </div>
+    <!-- /Logo -->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand mr-5" href="index.html">Pets Well</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- menu -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Головна</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="post-01.html">Джек расел</a>
+            </li>
+            <li class="nav-item ">
+            <a class="nav-link" href="post-02.html">Сфинкс</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="post-03.html">Кролик гігант</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Контакти</a>
+            </li>
+        <!-- /menu -->
+      </div>
+    </nav>
+    <!-- /Navbar -->
+
+  </header>
+
+  <!-- Carousel -->
+  <main class="py-3 mb-3">
+    <div class="container">
+      <div class="row">
+
+        <!-- POSTS -->
+        <div class="col-md-9">
+
+          <!-- Title -->
+          <h2>Хто я </h2>
+          <!-- Author -->
+          <p class="lead">
+            Мене звуть Дар'я. Я закінчила 9 клас. Проживаю у Чернігові. Я дуже обожнюю тварин тому і створила сайт про тварин. Тут можна дізнатися багато цікавого про тварин. Мій сайт має назву Pets Well. Наш дивіз Pets feel well with us.Дякую що подивилися мій сайт. <a href="index.html"></a>
+          </p>
+
+          <!-- Preview Image -->
+          <img src="i.jpg" class="img-fluid" alt="Про меня">
+          <!-- Post Content -->
+          
+        </div>
+        <!-- /col-md-9 -->
+
+        <!-- ============================================
+        ==================== ASIDE =================== -->
+        <div class="col-md-3 mx-auto mb-3 text-center">
+          <div class="blog-sidebar p-2 shadow-sm rounded">
+            <!-- About -->
+            <h2>Про</h2>
+            <img src="user.png" class="img-fluid rounded-circle" width="150" alt="Rob Smith">
+            <h4>Daria Tvardovska</h4>
+            <p>
+              Тут ви можете замовити журнал
+            </p>
+          </div>
+
+          <!-- Form -->
+          <form class="py-3 border-bottom text-left">
+            <h4>Замовити журнал</h4>
+            <div class="row">
+              <!-- Name -->
+              <div class="col-md-6 pb-3">
+                <input type="text" class="form-control input" name="name" data-form-field="Name" placeholder="Ім'я" required="">
+              </div>
+              <!-- Phone -->
+              <div class="col-md-6 pb-3">
+                <input type="tel" class="form-control input" name="phone" data-form-field="Phone" placeholder="Номер телефона" required="">
+              </div>
+              <!-- Email -->
+              <div class="col-md-12 pb-3">
+                <input type="email" class="form-control input" name="email" data-form-field="Email" placeholder="Email" required="">
+              </div>
+              <!-- Custom Select (Country) -->
+              <div class="col-md-12 pb-3">
+                <select class="custom-select" id="country" required="">
+                  <option value="">Країна</option>
+                  <option>Україна</option>
+                  <option>Росія</option>
+                  <option>Білорусь</option>
+                  <option>Польша</option>
+                </select>
+              </div>
+              <!-- Address -->
+              <div class="col-md-12 pb-3">
+                <input type="text" class="form-control input" name="address" data-form-field="Address" placeholder="Адрес" required="">
+              </div>
+              <!-- Select Book -->
+              <div class="col-md-12 pb-3">
+                <select class="form-control">
+                  <option>Найвідоміші породи собак</option>
+                  <option>Догляд за тваринами</option>
+                  <option>Наші найймолодші друзі </option>
+                </select>
+              </div>
+              <!-- Check -->
+              <div class="col-md-12 pb-3">
+                <h4 class="mb-3">Оплатити</h4>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                  <label class="form-check-label" for="exampleRadios1">
+                    Кредитна карточка
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios2">
+                    Готівкою
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                  <label class="form-check-label" for="exampleRadios3">
+                    PayPal
+                  </label>
+                </div>
+                <hr>
+              </div>
+              <!-- Checkbox -->
+              <div class="col-md-12 pb-3">
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Зберегти інформацію</label>
+                </div>
+              </div>
+              <!-- Submit button -->
+              <div class="col-md-12 pb-3 input-group-btn">
+                <button type="submit" class="btn btn-primary btn-form btn-block display-4">Замовити</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!-- /blog-aside -->
+
+      </div>
+      <!-- /row -->
+    </div>
+    <!-- /container -->
+  </main>
+
+  <!-- ============================================
+  ===================== FOOTER =================== -->
+  <footer class="border-top">
+    <div class="container">
+
+      <!-- Logo - About - Contact -->
+      <div class="row py-3 text-light">
+
+        <!-- Logo -->
+        <div class="col-md-4">
+          <img src="http://inmotus-design.ru/img/content/design-logotype-pets-well.jpg" class="img-fluid" width="250" draggable="false" alt="Logo">
+        </div>
+
+        <!-- About -->
+        <div class="col-md-4">
+          <h4>Про нас</h4>
+          <p>
+            Це веб сайт для того щоб дізнаватися багато про тварин. Так само можна замовити журнал де розказано ще більше.
+          </p>
+        </div>
+
+        <!-- Contact me -->
+        <div class="col-md-4">
+          <h4>Звяжися зі мною</h4>
+          <p>
+            Якщо є запитання пишіть мені на Email
+            <br><strong>Email: <a href="#" class="text-white">daratvardovska@gmail.com</a></strong>
+          </p>
+
+        </div>
+        <!-- /contact me -->
+      </div>
+      <!-- /Logo - About - Contact -->
+
+      <!-- Social icons -->
+      
+
+      <!-- Copyright -->
+      <div class="row py-3 d-flex justify-content-center border-top">
+        <small class="d-block text-light">Copyright &copy; 2019 Daria Tvardovska Blog</small>
+      </div>
+      <!-- /Copyright -->
+
+    </div>
+    <!-- /container -->
+  </footer>
+  <!-- Bootstrap core JavaScript -->
+  <!-- jQuery.js -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <!-- Popper.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <!-- Bootstrap.min.js -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
